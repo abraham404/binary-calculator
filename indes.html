@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/binaryCalculator.css" type="text/css">
+    
+    <title>Binary Calculator</title>
+</head>
+<body>
+    <div class="container-calculator">
+        <div id="resul-div">
+            <input  readonly id="resul" type="text" >
+        </div>
+        
+        <div id="container-enter">
+            <input readonly id="enter" type="text" placeholder="0">
+        </div>
+        
+            <div class="row1">
+                <button class="class-btns" id="btn0" onclick="getNumberZero()">0</button>
+                <button class="class-btns" id="btn1" onclick="getNumberOne()" >1</button>
+                <button class="class-btns color-gray" id="btnClr" onclick="clearInput()">C</button>
+                <button class="class-btns color-gray" id="btnEql" onclick="isValid()">=</button>
+            </div>
+            <div class="row2">
+                <button class="class-btns color-gray" id="btnSum" onclick="btnSum()">+</button>
+                <button class="class-btns color-gray" id="btnSub" onclick="btnSub()">-</button>
+                <button class="class-btns color-gray" id="btnMul" onclick="btnMul()">×</button>
+                <button class="class-btns color-gray" id="btnDiv" onclick="btnDiv()">÷</button>
+            </div>
+
+    </div>
+    <script src="js/binaryCalculator.js" type="text/javascript"></script>
+</body>
+</html>
