@@ -5,7 +5,8 @@
 body{
     display: grid;
     height: 100vh;
-    place-items: center
+    place-items: center;
+    
 }
 
 .container-calculator{
@@ -14,7 +15,7 @@ body{
     grid-template-rows: 1fr 0.70fr 0.70fr;
     background-color: #040404;
     border-radius: 12px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 17px 10px 17px;
 }
 
 #container-enter, #resul-div{
