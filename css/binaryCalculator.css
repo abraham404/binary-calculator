@@ -15,7 +15,7 @@ body{
     grid-template-rows: 1fr 0.70fr 0.70fr;
     background-color: #040404;
     border-radius: 12px;
-    padding: 10px 17px 10px 17px;
+    padding: 10px 12px 10px 6px;
 }
 
 #container-enter, #resul-div{
@@ -64,7 +64,8 @@ body{
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
+    margin-left: 6px;
     border-radius: 10px;
     cursor: pointer;
 }
